@@ -6,4 +6,5 @@ based on time sensitivity using conditional statements, Match Case, and loops.
 """
 def main():
     print("=== Daily Task Reminder ===")
-
+    # Prompt for task details
+    task = input("Enter your task: ")
