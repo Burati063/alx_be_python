@@ -24,3 +24,10 @@ def main():
             print("Please enter 'yes' or 'no'")
     print("\n" + "="*40)
     print("REMINDER:")
+    # Process task based on priority using Match Case
+    match priority:
+        case 'high':
+            if time_bound == 'yes':
+                print(f"⚠️  '{task}' is a high priority task that requires immediate attention today!")
+            else:
+                print(f"⚠️  '{task}' is a high priority task. Focus on completing it soon.")
