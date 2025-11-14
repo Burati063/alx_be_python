@@ -43,3 +43,6 @@ def main():
                 print(f"📚 Note: '{task}' is a low priority task. Consider completing it when you have free time.")
     print("="*40)
 
+    # Celebration message
+    print("\n🎉 Well done on completing this project! Let the world hear about this milestone achieved.")
+    print("\n🚀 Click here to tweet! 🚀")
