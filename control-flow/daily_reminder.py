@@ -15,4 +15,10 @@ def main():
             break
         else:
             print("Please enter 'high', 'medium', or 'low'")
-
+    # Get time-bound status with input validation loop
+    while True:
+        time_bound = input("Is it time-bound? (yes/no): ").lower()
+        if time_bound in ['yes', 'no']:
+            break
+        else:
+            print("Please enter 'yes' or 'no'")
