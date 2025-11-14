@@ -8,3 +8,11 @@ def main():
     print("=== Daily Task Reminder ===")
     # Prompt for task details
     task = input("Enter your task: ")
+    # Get priority with input validation loop
+    while True:
+        priority = input("Priority (high/medium/low): ").lower()
+        if priority in ['high', 'medium', 'low']:
+            break
+        else:
+            print("Please enter 'high', 'medium', or 'low'")
+
