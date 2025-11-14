@@ -31,3 +31,8 @@ def main():
                 print(f"⚠️  '{task}' is a high priority task that requires immediate attention today!")
             else:
                 print(f"⚠️  '{task}' is a high priority task. Focus on completing it soon.")
+        case 'medium':
+            if time_bound == 'yes':
+                print(f"📝 '{task}' is a medium priority task that should be completed today.")
+            else:
+                print(f"📝 '{task}' is a medium priority task. Schedule time for it this week.")
