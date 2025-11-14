@@ -22,3 +22,5 @@ def main():
             break
         else:
             print("Please enter 'yes' or 'no'")
+    print("\n" + "="*40)
+    print("REMINDER:")
