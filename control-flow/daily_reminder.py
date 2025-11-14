@@ -46,3 +46,6 @@ def main():
     # Celebration message
     print("\n🎉 Well done on completing this project! Let the world hear about this milestone achieved.")
     print("\n🚀 Click here to tweet! 🚀")
+if __name__ == "__main__":
+    main()
+
