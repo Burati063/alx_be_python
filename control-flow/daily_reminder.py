@@ -41,3 +41,5 @@ def main():
                 print(f"📚 '{task}' is a low priority task with a time constraint. Consider completing it when possible.")
             else:
                 print(f"📚 Note: '{task}' is a low priority task. Consider completing it when you have free time.")
+    print("="*40)
+
